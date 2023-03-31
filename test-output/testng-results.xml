@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-01T18:38:27 IST" name="Default suite" finished-at="2022-06-01T18:39:13 IST" duration-ms="45401">
+    <groups>
+    </groups>
+    <test started-at="2022-06-01T18:38:27 IST" name="Default test" finished-at="2022-06-01T18:39:13 IST" duration-ms="45401">
+      <class name="TestSuites.TestCases">
+        <test-method is-config="true" signature="invokeBrowser()[pri:0, instance:TestSuites.TestCases@18b0930f]" started-at="2022-06-01T18:38:27 IST" name="invokeBrowser" finished-at="2022-06-01T18:38:31 IST" duration-ms="3888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method signature="userDetails()[pri:1, instance:TestSuites.TestCases@18b0930f]" started-at="2022-06-01T18:38:31 IST" name="userDetails" finished-at="2022-06-01T18:39:00 IST" duration-ms="29115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userDetails -->
+        <test-method signature="appsTools()[pri:2, instance:TestSuites.TestCases@18b0930f]" started-at="2022-06-01T18:39:00 IST" name="appsTools" finished-at="2022-06-01T18:39:04 IST" duration-ms="4022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appsTools -->
+        <test-method signature="searchAndListApps(char,int)[pri:3, instance:TestSuites.TestCases@18b0930f]" started-at="2022-06-01T18:39:04 IST" name="searchAndListApps" data-provider="data-provider" finished-at="2022-06-01T18:39:08 IST" duration-ms="3696" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAndListApps -->
+        <test-method signature="searchAndListApps(char,int)[pri:3, instance:TestSuites.TestCases@18b0930f]" started-at="2022-06-01T18:39:08 IST" name="searchAndListApps" data-provider="data-provider" finished-at="2022-06-01T18:39:11 IST" duration-ms="3156" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAndListApps -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestSuites.TestCases@18b0930f]" started-at="2022-06-01T18:39:11 IST" name="closeBrowser" finished-at="2022-06-01T18:39:13 IST" duration-ms="1465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestSuites.TestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
